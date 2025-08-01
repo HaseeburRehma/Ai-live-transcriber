@@ -1,8 +1,9 @@
 {
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
   "/api/upload/route": "app/api/upload/route.js",
-  "/notes/page": "app/notes/page.js",
-  "/settings/page": "app/settings/page.js",
+  "/api/answerai/route": "app/api/answerai/route.js",
+  "/api/answerai/generate-answer/route": "app/api/answerai/generate-answer/route.js",
+  "/answerai/page": "app/answerai/page.js",
   "/auth/signin/page": "app/auth/signin/page.js",
-  "/auth/signup/page": "app/auth/signup/page.js"
+  "/notes/page": "app/notes/page.js"
 }

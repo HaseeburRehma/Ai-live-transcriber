@@ -6,15 +6,15 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/answerai/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/answerai/page.js"
     ],
-    "/auth/signin/page": [
+    "/api/answerai/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/auth/signin/page.js"
+      "static/chunks/app/api/answerai/route.js"
     ],
     "/api/auth/[...nextauth]/route": [
       "static/chunks/webpack.js",
@@ -26,6 +26,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/api/settings/route.js"
     ],
+    "/api/upload/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/upload/route.js"
+    ],
+    "/auth/signin/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/auth/signin/page.js"
+    ],
     "/notes/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -36,25 +46,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/api/notes/route.js"
     ],
-    "/settings/page": [
+    "/api/answerai/generate-answer/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/settings/page.js"
+      "static/chunks/app/api/answerai/generate-answer/route.js"
     ],
-    "/auth/signup/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/auth/signup/page.js"
-    ],
-    "/api/upload/route": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/api/upload/route.js"
-    ],
-    "/api/server/transcribe/route": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/api/server/transcribe/route.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
